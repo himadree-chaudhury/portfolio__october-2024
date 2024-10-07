@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himadree Chaudhury</title>
+    <!--Icon-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Nav bar-->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">Porfolio</a>
+            <button class="nav__theme-btn">
+                <i class="uil uil-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!--Floating Nav-->
+    <menu class="floating__nav">
+        <a href="#" class="active"><i class="uil uil-estate"></i></a>
+        <a href="#resume"><i class="uil uil-user"></i></a>
+        <a href="#projects"><i class="uil uil-images"></i></a>
+        <a href="#faqs"><i class="uil uil-clipboard-alt"></i></a>
+        <a href="#contact"><i class="uil uil-phone"></i></a>
+    </menu>
+
+    <!--Header-->
+    <header>
+        <video autoplay muted loop src="./assets/video.webm" class="intro__video"></video>
+        <div class="header__container">
+            <div class="header__image">
+                <img src="./assets/portrait.jpg" alt="Header Image">
+            </div>
+            <h5>Hi, I'm Himadree</h5>
+            <h1>Fullstack <span>Web Developer</span> base in Bangladesh</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quae consequuntur dicta nam, sit quasi</p>
+            <div class="header__cta">
+                <a href="#projects" class="btn">My Projects</a>
+                <a href="#contact" class="btn primary">Hire Me !</a>
+            </div>
+            <menu class="header__social">
+                <a href="#"><i class="uil uil-github"></i></a>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                <a href="#"><i class="uil uil-twitter-alt"></i></a>
+                <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+            </menu>
+        </div>
+    </header>
+
+    <!--Resume-->
+    <section id="resume">
+        <div class="container resume__container">
+            <div class="resume__left">
+                <h1>Why Hire Me ?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <menu>
+                    <button class="btn primary experience-btn">Experience</button>
+                    <button class="btn education-btn">Education</button>
+                    <button class="btn skills-btn">Skills</button>
+                    <button class="btn about-btn">About Me</button>
+                </menu>
+            </div>
+            <div class="resume__right">
+
+            </div>
+        </div>
+    </section>
+
+    <!--Project-->
+    <section class="projects" id="projects">
+        <h1>Recent Projects</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat a provident maxime iste. Inventore, amet?
+        </p>
+        <menu class="projects__categories">
+            <button class="btn primary" data-filter="*">All</button>
+            <button class="btn" data-filter=".frontend">Frontend</button>
+            <button class="btn" data-filter=".backend">Backend</button>
+            <button class="btn" data-filter=".fullstack">Fullstack</button>
+        </menu>
+        <div class="container projects__container">
+            <article class="project data mix fullstack" data-order="1">
+                <div class="project_image">
+                    <img src="./assets/project1.jpg" alt="Project One">
+                </div>
+                <h5>Project One Title (Fullstack)</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem magnam atque voluptatibus
+                    molestias tenetur?</p>
+                <div class="project__cta">
+                    <a href="" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            <article class="project mix frontend" data-order="2">
+                <div class="project_image">
+                    <img src="./assets/project2.jpg" alt="Project Two">
+                </div>
+                <h5>Project One Title (Fullstack)</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem magnam atque voluptatibus
+                    molestias tenetur?
+                </p>
+                <div class="project__cta">
+                    <a href="" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            <article class="project mix fullstack" data-order="3">
+                <div class="project_image">
+                    <img src="./assets/project3.jpg" alt="Project Three">
+                </div>
+                <h5>Project One Title (Fullstack)</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem magnam atque voluptatibus
+                    molestias tenetur?
+                </p>
+                <div class="project__cta">
+                    <a href="" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            <article class="project mix frontend" data-order="4">
+                <div class="project_image">
+                    <img src="./assets/project4.jpg" alt="Project Four">
+                </div>
+                <h5>Project One Title (Fullstack)</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem magnam atque voluptatibus
+                    molestias tenetur?
+                </p>
+                <div class="project__cta">
+                    <a href="" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            <article class="project mix frontend" data-order="5">
+                <div class="project_image">
+                    <img src="./assets/project5.jpg" alt="Project Five">
+                </div>
+                <h5>Project One Title (Fullstack)</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem magnam atque voluptatibus
+                    molestias tenetur?
+                </p>
+                <div class="project__cta">
+                    <a href="" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            <article class="project mix backend" data-order="6">
+                <div class="project_image">
+                    <img src="./assets/project6.jpg" alt="Project Six">
+                </div>
+                <h5>Project One Title (Fullstack)</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem magnam atque voluptatibus
+                    molestias tenetur?
+                </p>
+                <div class="project__cta">
+                    <a href="" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--MixItUp JS-->
+    <script src="./mix/dist/mixitup.min.js"></script>
+    <!--Javascript File-->
+    <script src="main.js"></script>
+</body>
+
+</html>
